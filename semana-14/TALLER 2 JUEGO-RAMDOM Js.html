@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RANDOM JS</title>
+    <!-- link de sitio sweet alert mensajes más elegantes-->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="./CSS/random.css">
+    <script src="./JS/ramdom.js"></script>
+</head>
+<body>
+    <center>
+        <h1>AOYESTAS JS</h1>
+        <h2>DAR CLIC EN BOTON APORTAR</h2>
+        <br><br>
+        <form action="">
+            <label for="">NUMERO APOSTADO</label>
+            <input type="text" id="apostado" class="box">
+            <br><br>
+            <label for="">NUMERO RAMDOM SISTEMA</label>
+            <input type="text" id="resultado" class="box">
+            <br><br>
+            <label for="">CANTIDAD DE INTENTOS</label>
+            <input type="text" id="salida" class="box" disabled>        
+        </form>
+        <br><br>
+        <div id="boton">
+            <button onclick="apostar();">APOSTAR</button>
+            <button onclick="cancel();">CANCELAR</button>
+        </div>
+    </center>
+</body>
+</html>
